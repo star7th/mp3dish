@@ -1,0 +1,16 @@
+﻿说明：
+1、请自行修改config.php里的配置。
+2、建议放在你的网站目录mp3dish下（请创建此目录），通过网址 www.yourwbsite.com/mp3dish 访问
+3、请注意自己所在的服务器最大的上传文件的大小，超过此大小的音乐将无法上传
+4、若是SAE环境，注意新建domain以存放文件。若是PHP环境，则注意给上传文件的目录以可写权限
+
+4、请把以下的sql语句复制到phpmyadmin中运行，建立所需要的表。
+CREATE TABLE IF NOT EXISTS `mp3` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `size` double NOT NULL,
+  `datetime` datetime NOT NULL,
+  `url` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `datetime` (`datetime`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

@@ -39,7 +39,7 @@
           <a href="./">首页</a>
         </li>
         <li><a href="list.php">已上传文件</a></li>
-        <li><a href="http://blog.star7th.com" target="_blank">技术博客</a></li>
+        <li><a href="http://blog.star7th.com/2015/05/1509.html" target="_blank">技术博客</a></li>
         <li ><a href="http://weibo.com/n33n" target="_blank">@第七星尘</a></li>
         </ul>
     </div>
